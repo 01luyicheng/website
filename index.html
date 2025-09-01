@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陆奕丞 (Lu Yicheng) - 非同凡想</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Modal Popup -->
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <p>这个网页由AI创建，所以不太好，下面是提示词，你可以直接看这个。</p>
+                <p>你是个AI提示词优化专家。
+
+
+请你帮我做一个精美的个人网站，动画、视觉效果要很好（但不能太重，不然加载太慢），比如说鼠标的交互效果、不同深度的视差滚动，桌面端、移动端都要适配。如果你想要在网页中放置图片，请你先预留图片链接，然后告诉我需要准备什么图片以及它的文件名，我会把图片放在网页目录下。我叫陆奕丞，一个普普通通的学生，2010年出生的Z世代AI原住民。我非常热爱开发但却什么都没有开发出来，也从来没有参加过任何计算机相关的比赛、上过任何有关的培训班，甚至连Python和C++都才刚开始学没多久，其他编程语言也几乎不懂，但就是这样不懂，我也靠着必应谷歌以及各种AI做了许多拿的出手的项目。我初三的时候为了抗议学校不上信息课建了一个网站 https://jh5z.xyz（AI将它它制作的十分精美，但这个jh5z.xyz域名是后来新买的，原来是jh5z.icu，意为金华五中的重症监护室也就是金华五中的ICU，但当时抗议的太猛、宣传得太多导致域名被墙了）。中考志愿填报前，我还发现了中考志愿填报网站存在严重漏洞，重置密码时的短信验证码提交接口没有做次数限制，对于6位数的短信验证码我只需要尝试最多100万次就可以接管任意考生的账号，修改它的密码、志愿，如果我改了所有人的志愿，那我可以控制任何一个人去任何一所学校，这实现起来相当容易，我可以决定全金华2025届中考考生的命运。当然我并没有恶意利用，我后来把漏洞报告给了教育局，目前教育局方面已经修复完毕（这大概是我在网络安全方面最大的成就了）。我也曾经发现过其他学校以及腾讯微软等等大厂的各种漏洞，甚至学生们很喜欢的作业帮，我找到了一种方法可以不验证身份直接查看答案（本来是需要实名认证确定18岁以上才能查看答案）。虽然这些漏洞危害不大，但我在寻找漏洞的过程中很快乐，且掌握了许多渗透测试技巧。我在学校里练习内网渗透，拿下了金华五中也就是我初中学校的许多电脑、路由器、交换机、打印机，然后经常因此被老师们骂。我也曾拿着console翻窗户到学校的网络设备机房，改了几台设备的密码（也就是物理入侵了）；我还故意撞开广播室的门，看里面话筒的频率然后拿手台来干扰它，被发现后给老师写道歉信，在里面附上我自己做的“U盘”（badusb）表示歉意，并让badusb在老师电脑上装上我的后门程序，一举两得，虽然后来老师并没有在电脑上插badusb，把“U盘”还给了我，也许是因为不能“贪污受贿”；真的很可惜，我没钱买hackrf和flipper zero，要不然我就能随时打开学校大门回学校内网渗透了，但我有个sdr软件定义电台，我可以接收学校大门遥控器的信号；我自己还发明了一种新颖的内网渗透方式，通过ipv6攻破ipv4网络：因为学校路由器没有开ipv6，所以我可以假装自己是ipv6网关，给内网其他设备发RA，因为很多设备默认ipv6优先，所以我就可以轻松的劫持到它们的流量，甚至用Portal认证的方式让内网所有设备强制自动打开我的网站，因为路由器没开ipv6支持，所以自然也不会有ipv6相关的防火墙配置（比如说RA Guard），我可以自由的发RA来劫持流量，宣称我自己是网关……我还有一定的Linux基础，这是在建站的过程中获得的，我可以较为熟练的使用Linux进行搭建网站等常规操作，对于基本的Linux命令，我基本都很熟悉，当然还有使用kali Linux进行攻击，我能熟练的掌握各种常见的kali工具，曾经利用arp欺骗让老师无法上网，利用SNMP漏洞篡改了学校的交换机配置，用airodump-ng破解了邻居家的wifi密码。我对AI应用同样充满热情，我非常擅长使用AI，我自己学习了机器深度学习的相关知识，并使用AI提供的代码做出了许多项目。我根据自己日常生活中的痛点，用AI写了许多半成品小项目，半成品是因为现有的AI上下文长度实在太短了，不能一次写出几千行代码，所以我又自己想出了解决方案：先让一个AI领导者拆解项目，再分配给它手下的其他AI打工仔，让AI牛马们慢慢做。我用AI做出了基于AI预测的智能输入法，一个无时无刻不在视奸你的AI秘书，它会慢慢学会你的表达习惯，它可以根据时间、天气、窗口信息、系统信息、屏幕截图、曾经输入的内容等信息实时预测你接下来将会输入的内容，是世界上唯一的AI输入法，市面上完全没有类似的商用AI输入法，我后来在AdventureX黑客松上看见了类似的项目，但我做的这个AI输入法更加好用，让AI学习了足够多你的行为之后，它甚至可以代替你。我也用AI做过业余无线电考试练习工具，可以自动打乱顺序、刷题、看答案，帮助人们学习业余无线电知识。我是最早一批参加中国国家天文台PSP公众超新星搜寻项目的人，那时候我刚刚小学三年级。后来，我有了星特朗的专业反射型天文望远镜，我常常用它观察天空，也经常拍摄空间站过境的照片。我也喜欢玩业余无线电，我在10mhz上守听，收到过国家授时中心寄来的QSL卡片；大年初一的凌晨，举着一米长的天线独自爬上屋顶接收国际空间站的SSTV，解码出一张宇航员的照片，并获得了俄罗斯的电子版接收确认卡；在山顶守听漂洋过海的短波NHK中文广播，收到了NHK邮寄的QSL卡片和纪念品；当然，我最常守听的还是金华中继，145.520/144.920-T88.5；这里是BG5DRE，期待与你在电波中相遇。我对计算机硬件及密码学也有所涉猎，我可以帮你写合适的电脑配置单，我可以手搓CPU，我十分了解各种常见的加密协议实现原理，还有个同步浏览器cookie的半成品项目，为了这个项目的安全性，我曾经彻夜难眠，一旦有了思路就立刻从床上爬起来验证，最终参考了Firefox Sync和Anytype的安全实践方式。当然，我最擅长的还是网络安全，我甚至在中考前突发奇想：把中考试卷上的条码改成SQL注入语句会怎样？（这真是有点crazy，有想法就要去做）于是，中考前一天晚上11点，我还在电脑前制作我的条码。这听着很危险又很好笑，我把常见和不常见的SQL注入语句(比如说'OR 1=1--和';BEGIN;ROLLBACK;COMMIT--)都写了一遍，还在条码里写了点XSS、HTTP参数污染之类的语句进行测试（比如我在上面写score=120，如果HTTP请求的时候带上了这个参数并且识别到了，那我就篡改成绩为120了），但最后似乎并没有什么效果，因为要是我成功的删库跑路了，那我肯定会看到中考阅卷系统被黑客攻击的新闻，但事实就是：我没有看到关于中考阅卷系统被黑客攻击的新闻（虽然后来我还是通过web攻击了中考查分网站），那只能推测没有成功了。我还做过嵌入式开发，玩过ESP32、STM32、CW32、GD32、树莓派、立创泰山派等等小开发板，用这些开发板做过几个项目，比如说初中时看见老师上课写板书不容易保存的痛点，敏锐的意识到巨大的市场和商业机会，我就用ESP32配上fsr402为老师做了一支手写笔以及配套的白板软件（当然都是AI写的，我自己不那么会），蓝牙连接班里的电脑，比Apple pencil还好用；中考前几天人家都在复习，我在开发基于STM32的中考倒计时数码管时钟，看着那一分一秒流动的时间我却一点都不着急，与此同时，我也会一点点电路设计，会使用EDA软件画PCB，但会的不多，都是自己跟着嘉立创学的。我也曾用电烙铁连焊stm32导致短路，用热风枪吹排针把塑料吹化了。我玩过pcr532之类的东西，研究过cuid卡、M1等常见的卡片的原理，也尝试解密过它们，还做过很多事，比如说复制一张面包店的打折卡并修改折扣率，尝试修改酒店房卡中的数据开别的房间的门，还试过修改超市会员卡的金额，甚至格式化饭店里点菜用的nfc标签。这样的恶作剧还有很多，比如说我用手机的红外发射器关掉肯德基的电视机，还能隔着玻璃打开别人办公室的空调。我还发现过许多店铺门口的走字屏都存在一个严重的漏洞，我可以任意篡改上面的字，于是我把很多家店门口的走字屏上的字都改了，用来抗议金华五中不在初三年级开设信息科技课程（但后来怕惹麻烦就删了）。我还试过用sdr来扫描饭店服务员使用的对讲机频率，然后用手台在上面催上菜，真的有效果，我用大功率无线电台发射，他们完全无法正常使用对讲机，5瓦手台加770天线压制0.5瓦，整个饭店所有人都听见我在催上菜。我还用手机连接促销员的小蜜蜂扩音器，在上面播放英语听力，把人家整蒙了。我还能用kali窃听别人的蓝牙耳机，能听到别人打电话、看视频、听音乐。我也很熟悉电脑装机、维修、维护，以及安装系统、装驱动（包括Windows、Linux甚至黑苹果）等等，我还能熟练地使用社工库来查询任何人的个人信息。网络、安防、弱电工程以及化工产业，我都较为熟悉，甚至想考华为的hcia，但太贵了，考不起。我也会给苹果设备越狱，给安卓设备刷root、装Windows甚至kali，给普通电脑装黑苹果，给机顶盒刷armbian，给学校电脑装frp内网穿透。许多我本以为是我自己先想到的事，后来都发现它们已经存在。但也有不是这样的时候，比如说我创新性的提出了能同时充电和传输网络信号的usb墙壁插座。我总有些奇奇怪怪的想法，有的甚至非常不切实际，例如，我观察到一个区域内的蝉总是同步开始/结束鸣叫，我认为这是个很不错的分布式系统，所以我想录制一段蝉鸣声然后对录音进行各种变换再拿着喇叭对着蝉群播放，尝试干扰它们的同步，测试这个去中心化系统的容错能力，看它怎样才会崩溃，是否使用拜占庭容错，甚至还能模仿蝉来改进现有区块链，但这个实验由于缺少设备、资金和时间而无法进行。我还是对区块链有所了解的，比如说DAO、RWA、defi这样的概念，所以我就想着用蝉的理论改造现有的区块链技术。我曾经和同学手动用dh算法来交换密钥（只使用纸笔和计算器，不用电脑），然后非对称加密的互相写信，我们还实践了零知识证明，不告知对方自己的体重但却能比较出谁更重。我也做过一些实用的小工具，比如说我觉得rm、del命令直接删除文件不太好，容易误删，所以我做了一个跨平台安全删除工具的项目，名叫DelGuard，可以帮助用户把rm、del删除的文件移动到回收站/Trash/废纸篓，这款工具真的很有用，现在开源在github上 https://github.com/01luyicheng/DelGuard ，它可以让你安全的删除文件，删除的文件还能找回来。我还曾经想过，现在笔记本屏占比越来越高，为什么不能把每个键帽都换成小屏幕？但后来因为屏幕太贵，我缺少研发经费，这个项目没有继续下去。像这样因为各种原因未能实现的项目还有很多，比如说能环球一周的AI驱动太阳能固定翼飞行器、体积小巧却能打印无限大纸张的打印机（长的类似于鼠标，在桌子上放一张白纸，打印机可以在纸面上移动实现打印功能，因此打印的纸张没有大小限制，体积小能力不小）、为外卖员准备的食品稳定器（类似相机云台，把食物放上去就可以保持水平，防止汤洒出来）、多智能体自动化工作流、网页SSTV解码器、接入AI的自动化shell、AI自动检查各种Github仓库可能存在的漏洞甚至发现现实世界中客观存在的物理悖论。我会对仔细的观察一切事物，对它们产生兴趣，比如说我曾经为了观察鸟群，在路上站了几个小时，因此还错过了上课。我还痴迷于永动机，设计了很多款永动机，也否认了很多款自己设计的永动机，但还有一款设计稿没被我自己发现任何漏洞，我问了很多人也没人找到任何问题，可惜我没有经费把它们制造出来验证。我也做过飞行器空气动力学仿真、3D建模，还买了很多化学试剂自己制作了硝糖火箭，但是在烧杯中意外被点燃，差点烧到我自己了；不过我的火箭还是成功的飞起来了。我经常在上课时、睡觉前思考，也就是在这些时候，我曾经自己发明了sql注入，然后上网一查：原来真的可以这么玩；我在睡前经常会想着各种奇奇怪怪的现象，自己发现了多普勒效应，上网一搜，还真有这么回事。我的MBTI是INTP-T。我沉迷网络，但从来不玩电脑游戏，也不刷短视频，我每天使用电子产品十几个小时，即使是上学的日子我也每天使用几个小时手机电脑，但这么多时间我一直是在看技术文章、练习写代码、和AI讨论问题。我精通web3、去中心化、分布式、区块链、元宇宙这些新兴技术，我对新技术保持着极高的敏感度和热情，比如说我搭建过onion网站，你可以用tor浏览器来访问；我还曾经想在blackcity元宇宙城市买房，但太贵了，投资不起。当然还有深度学习与机器学习、卷积神经网络，这些也是我所擅长的。我经常做一些疯狂的事情，比如说在高性能工作站上安装Windows95，在MacBook上装Ubuntu，在2007年的ThinkPad上装Windows11，把5.25寸超级古董的软驱装在我的电脑上，让我拥有了A盘这样一个别人没见过的盘符；当然我也玩企业级设备，比如说U.2服务器固态、LOT4磁带（噪声很大）、双路E5（洋垃圾）。我是个素食主义者，我认为吃素有益健康，而且不会伤害小动物。但我是初二那会儿突然特别喜欢计算机，于是开始玩这些东西，也正是那时候，我从曾经在金华师范学校附属小学（金师附小，全金华最好的小学）的班级第一（我当时甚至还是科学课代表、数学组长、英语老师助手）到了现在的倒数，如今只能去职高。我刚刚中考结束，只考了419分，马上就要上高中了，我将在金华市九峰职业学校学习无人机操控与维护专业。我准备在开学前给我的高中同学们展示一下我的网站，增进友谊，当我准备用WordPress建博客的时候，突然发现我甚至没有写过一篇文章......所以我不得不放弃使用现成的网页模板，准备自己从头开始做网站。请你写出网页代码，我会把它们部署在我的服务器上，由于我们在网页上没有任何需要提交的内容表单，所以我们不需要后端。你可以在网页中化用一些技术术语，比如说在一个终端自动逐字逐句的打出whoami等命令然后得到陆奕丞以及相关信息输出。上面那些个人简介写的过于潦草，你可以帮我优化修改一下。我在上面说的许多事情可以作为个人成长经历在网页中展示，内容要尽量完整，你可以帮我补充一些故事。我希望这个网站非常有创意，我个人非常热爱创新，总是有许多改变世界新想法在我脑海中冒出，但由于时间经验不足，很多都没能实现。
+我很认可Apple的广告“非同凡想”
+Think Different
+
+原文如下
+Here’s to the crazy ones.
+The misfits.
+The rebels.
+The troublemakers.
+The round pegs in the square holes.
+The ones who see things differently.
+They’re not fond of rules.
+And they have no respect for the status quo.
+You can quote them, disagree with them, glorify or vilify them.
+But the only thing you can’t do is ignore them.
+Because they change things.
+They invent. They imagine. They heal. They explore. They create. They inspire.
+They push the human race forward.
+Maybe they have to be crazy.
+How else can you stare at an empty canvas and see a work of art?
+Or sit in silence and hear a song that’s never been written?
+Or gaze at a red planet and see a laboratory on wheels?
+We make tools for these kinds of people.
+While some see them as the crazy ones, we see genius.
+Because the people who are crazy enough to think they can change the world, are the ones who do.
+我大概就是乔布斯说的crazy之一
+
+为每一个不羁的灵魂举杯
+这个世界总有一群人甘愿与众不同。我们不愿被课桌束缚，不愿随波逐流。我们是创造者,是当代“嬉皮士”,是每天都在呓语要改变世界的人。
+
+请制作这个网页，网页制作要生动精美、感人，动画效果做好一点，美观一点，要做到真正引发读者的深度思考和感慨。网站的目标受众是我的高中同学。这个网站将会使用域名luyicheng.xyz。漏洞都已经修复完成了，细节可以对外公布。我们需要适配好不同尺寸的屏幕。我上面写得有点乱，你可以帮我整理一下。
+
+
+请在给AI的提示词中写出具体要求、最终期望效果。我上面写的有点乱，你可以帮我整理一下，如果需要，你可以询问我更多的细节以便更好的完成这个网站的制作。上面是一段给AI的提示词。请你优化一下它，给AI更明确的指令。你可以优化一下文案，整理一下我那些乱七八糟的故事、经历，你甚至可以额外补充一点，并列出一个需要实现的网页效果清单。故事中的具体细节也应该得到充分展示。我希望我说的这些故事都能完整的呈现出来。你可以写个网站设计思路，包括所有要出现的文字，也就是说你可以先做个最终效果描述，然后我把它变成代码。你可以把所有网页上要出现的文案都先完整的写好放在提示词里（比如通过卡片的形式来讲述一个个故事，那你就要把最终在网页里的卡片上需要出现的文字都先写好），到时候负责写代码的AI只需要负责把你写的文案变成代码就可以了。我们需要一个需求清单、prd文档。你先别写代码，现在只需要写开发者文档并优化网页文案。如果有什么问题，你可以向我提问。</p>
+            </div>
+        </div>
+    </div>
+
+    <header id="hero">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="terminal-button red"></span>
+                    <span class="terminal-button yellow"></span>
+                    <span class="terminal-button green"></span>
+                </div>
+                <div class="terminal-title">/bin/bash</div>
+            </div>
+            <div class="terminal-body">
+                <div id="terminal-content"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="philosophy" class="scroll-reveal">
+            <div class="container">
+                <h2>非同凡想 / Think Different</h2>
+                <div class="think-different-container">
+                    <div class="think-different-text english">
+                        <p>Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes.</p>
+                        <p>The ones who see things differently. They’re not fond of rules. And they have no respect for the status quo.</p>
+                        <p>You can quote them, disagree with them, glorify or vilify them. But the only thing you can’t do is ignore them. Because they change things.</p>
+                        <p>They invent. They imagine. They heal. They explore. They create. They inspire. They push the human race forward.</p>
+                        <p>Maybe they have to be crazy.</p>
+                        <p>How else can you stare at an empty canvas and see a work of art? Or sit in silence and hear a song that’s never been written? Or gaze at a red planet and see a laboratory on wheels?</p>
+                        <p>While some see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do.</p>
+                    </div>
+                    <div class="think-different-text chinese">
+                        <p>致疯狂的人。他们特立独行，他们桀骜不驯，他们惹是生非，他们格格不入。</p>
+                        <p>他们用与众不同的眼光看待事物，他们不喜欢墨守成规，他们也不愿安于现状。</p>
+                        <p>你可以引用他们，反对他们，颂扬或是诋毁他们。但唯独不能做的，就是漠视他们。因为他们改变了寻常事物。</p>
+                        <p>他们发明，他们想象，他们治愈，他们探索，他们创造，他们启迪。他们将人类向前推动。</p>
+                        <p>也许，他们必是疯狂的。</p>
+                        <p>不然，你怎能面对一片空白的画布，却看到一幅艺术品？又怎能静坐无声，却听到一首从未谱写的歌曲？又怎能凝视红色星球，却看到一台漫步的实验室？</p>
+                        <p>或许他们是别人眼中的疯子，但他们却是我们眼中的天才。因为，只有那些疯狂到以为自己能够改变世界的人，才能真正地改变世界。</p>
+                    </div>
+                </div>
+                <p class="reflection">我，陆奕丞，Z世代AI原住民，INTP-T。我痴迷于代码、电波与星辰，也常常游走在规则的边缘。世界于我，是一块巨大的电路板，充满了等待被发现、被连接、被重塑的节点。有人视我为“麻烦制造者”，但我更愿称自己为“可能性的探索者”。</p>
+            </div>
+        </section>
+
+        <section id="story" class="scroll-reveal">
+            <div class="container">
+                <h2>我的故事：代码、奇想与成长</h2>
+                <div class="timeline">
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content left">
+                            <h3>《反叛的序曲》</h3>
+                            <p>初三，当信息技术课从课表中消失，我感到了某种压抑。代码的世界如此广阔，我们却被困在方寸之间。于是，我用代码发出了自己的声音。一个名为 <a href="https://jh5z.xyz" target="_blank">`jh5z.icu`</a> (金华五中ICU) 的网站诞生了，它设计精美，言辞犀利，是我对僵化规则的第一次正式抗议。网站迅速传播，最终域名被墙，但这并未使我消沉，反而让我第一次真切感受到了代码的力量——它能穿透沉默，汇聚共鸣。</p>
+                        </div>
+                        <div class="timeline-icon">
+                            <img src="../project-protest.jpg" alt="抗议网站">
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content right">
+                            <h3>《白帽的守护》</h3>
+                            <p>中考志愿填报前夜，我偶然发现系统存在一个致命漏洞：重置密码的短信验证码接口竟未做任何限制。这意味着，通过简单的暴力破解，我可以接管任何一名考生的账号，篡改他的未来。那一刻，我仿佛掌握了潘多拉的魔盒，全金华数万考生的命运系于我一念之间。但我选择了另一条路。我将漏洞详情、复现方式和修复建议整理成报告，递交给了教育局。漏洞被悄然修复，一场可能波及全城的风暴消弭于无形。这是我的秘密成就，也是我作为“白帽”的誓言：能力越大，责任越大。</p>
+                        </div>
+                        <div class="timeline-icon">
+                            <img src="../project-security.jpg" alt="网络安全">
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content left">
+                            <h3>《疯狂的实验》</h3>
+                            <p>中考前晚，当同学们都在埋头苦读，我却在执行一个疯狂的计划。我想知道，如果将准考证上的条形码替换成SQL注入或XSS攻击语句，会发生什么？阅卷系统会因此崩溃吗？我能给自己加分吗？这听起来像天方夜谭，但我无法抑制这份好奇。我精心制作了多个“攻击条码”，贴上了试卷。虽然最终没有新闻报道中考系统被攻击，这次“异想天开”的尝试，却是我探索精神最极致的体现——敢于质疑一切，敢于挑战权威，哪怕是在最意想不到的地方。</p>
+                        </div>
+                        <div class="timeline-icon">
+                            <img src="../project-ai.jpg" alt="疯狂的实验">
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content right">
+                            <h3>《代码的创造》</h3>
+                            <p>探索之外，我更热衷于创造。为了解决`rm`命令误删文件的痛点，我开发了跨平台的安全删除工具<a href="https://github.com/01luyicheng/DelGuard" target="_blank">`DelGuard`</a>，并将其开源在GitHub。我用AI构建了一个能学习我语言习惯的智能输入法，一个真正的“AI秘书”。我用ESP32和FSR传感器为老师制作了比肩Apple Pencil的手写笔。这些项目，是我将脑海中的想法转化为现实的证明，也是我作为“创造者”的宣言。</p>
+                        </div>
+                        <div class="timeline-icon">
+                            <img src="../project-delguard.jpg" alt="DelGuard 项目">
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-content left">
+                            <h3>《物理世界的渗透》</h3>
+                            <p>我的好奇心不止于虚拟世界。我曾翻窗进入学校机房，修改设备密码；用SDR（软件定义无线电）捕捉并分析遥控器信号；在老师的道歉信里夹带自制的BadUSB；用大功率电台“压制”饭店的对讲机……这些看似“出格”的行为，是我学习物理世界运行法则的独特方式。每一次“渗透”，都是一次对现实世界协议的深度探索。</p>
+                        </div>
+                        <div class="timeline-icon">
+                            <img src="../profile.jpg" alt="物理世界渗透">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="exploration" class="scroll-reveal">
+            <div class="container">
+                <h2>超越代码的探索</h2>
+                <div class="hobby-grid">
+                    <div class="hobby-card scroll-reveal">
+                        <img src="../hobby-astro.jpg" alt="天文爱好">
+                        <div class="hobby-card-content">
+                            <h3>仰望星空</h3>
+                            <p>从小学三年级加入国家天文台的超新星搜寻项目开始，宇宙就对我有着无尽的吸引力。后来，我拥有了专业的反射式天文望远镜，在无数个夜晚，我追踪星辰，拍摄空间站划过天际的轨迹。星空教会我谦逊与敬畏，也让我的思绪在广袤的尺度上驰骋。</p>
+                        </div>
+                    </div>
+                    <div class="hobby-card scroll-reveal">
+                        <img src="../hobby-radio.jpg" alt="无线电爱好">
+                        <div class="hobby-card-content">
+                            <h3>电波传情 (BG5DRE)</h3>
+                            <p>我是BG5DRE。大年初一的凌晨，我曾独自爬上屋顶，用一米长的天线对准国际空间站，成功接收并解码了宇航员发来的SSTV图像。我也曾守候来自异国的短波，收到过NHK和国家授时中心的QSL卡片。在电波的海洋里，我与世界相连。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="scroll-reveal">
+            <div class="container">
+                <h2>技能矩阵</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>网络安全</h3>
+                        <ul>
+                            <li>Web渗透测试</li>
+                            <li>漏洞挖掘与分析</li>
+                            <li>内网渗透 (ARP, SNMP, IPv6)</li>
+                            <li>无线电安全 (SDR)</li>
+                            <li>社会工程学</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>软件开发</h3>
+                        <ul>
+                            <li>Python / C++</li>
+                            <li>Linux & Shell</li>
+                            <li>Web开发 (HTML/CSS/JS)</li>
+                            <li>AI / 机器学习应用</li>
+                            <li>跨平台工具开发</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>硬件 & 嵌入式</h3>
+                        <ul>
+                            <li>嵌入式开发 (ESP32/STM32)</li>
+                            <li>PC硬件组装与维修</li>
+                            <li>电路设计入门 (EDA)</li>
+                            <li>NFC/RFID 技术</li>
+                            <li>黑苹果 & 系统定制</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="scroll-reveal">
+        <div class="container">
+            <p>我的新旅程将在金华市九峰职业学校开始。</p>
+            <p>你可以在 <a href="https://github.com/01luyicheng/DelGuard" target="_blank">GitHub</a> 上找到我，或访问我的个人网站 <a href="https://jh5z.xyz" target="_blank">jh5z.xyz</a>，或在电波中呼叫我。</p>
+            <p class="callsign">BG5DRE</p>
+            <p class="final-quote">期待与你在电波或代码中相遇。</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
